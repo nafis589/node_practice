@@ -12,7 +12,7 @@ http.createServer(function(req, res){
         }
     })
     var mailoptions = {
-        from: 'toureprince513@gmail.com',
+        from: 'your email address',
         to: q.formulaire,
         subject: 'un petit message pour toi!!',
         text: 'hello handsome how are you?'
