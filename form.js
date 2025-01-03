@@ -7,8 +7,8 @@ http.createServer(function(req, res){
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user:'toureprince513@gmail.com',
-            pass:'crew ehut ghfh agvr'
+            user:'your email address',
+            pass:'your password'
         }
     })
     var mailoptions = {
